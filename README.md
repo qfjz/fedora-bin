@@ -20,10 +20,9 @@ Pobranie klucza
 gpg --keyserver keyserver.ubuntu.com --receive-keys fdcf7ef202c99d13
 ```
 
-Import i weryfikacja
+Weryfikacja
 
 ```
-gpg --import qfjz.gpg
 gpg --verify starship.sig
 
 gpg: Good signature from "qfjz-sign" [unknown]
