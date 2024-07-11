@@ -2,11 +2,11 @@
 
 System: Fedora Linux 40
 
-- chezmoi-2.49.1
-- joshuto-0.9.8
-- lazygit-0.42.0
-- lf-r32
-- starship-1.19.0
+- chezmoi-2.49.1    https://github.com/twpayne/chezmoi/releases
+- joshuto-0.9.8     https://github.com/kamiyaa/joshuto/releases
+- lazygit-0.42.0    https://github.com/jesseduffield/lazygit/releases
+- lf-r32            https://github.com/gokcehan/lf/releases
+- starship-1.19.0   https://github.com/starship/starship/releases
 
 Weryfikacja plików binarnych za pomocą klucza PGP
 
