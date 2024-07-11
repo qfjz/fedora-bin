@@ -22,7 +22,7 @@ curl -o qfjz.gpg https://github.com/qfjz.gpg
 lub
 
 ```
-curl -o qfjz.gpg "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xfdcf7ef202c99d13"
+gpg --keyserver keyserver.ubuntu.com --receive-keys fdcf7ef202c99d13
 ```
 
 Import i weryfikacja
