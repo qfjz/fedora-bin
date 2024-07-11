@@ -15,11 +15,7 @@ Weryfikacja plików binarnych za pomocą klucza PGP
 - Fingerprint: 9A22 DB48 1E21 A7D0 0855  D9BC FDCF 7EF2 02C9 9D13
 - ID: fdcf7ef202c99d13
 
-```
-curl -o qfjz.gpg https://github.com/qfjz.gpg
-```
-
-lub
+Pobranie klucza
 
 ```
 gpg --keyserver keyserver.ubuntu.com --receive-keys fdcf7ef202c99d13
