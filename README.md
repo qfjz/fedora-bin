@@ -11,6 +11,10 @@ System: Fedora Linux 40
 
 Weryfikacja plików binarnych za pomocą klucza PGP
 
+Nazwa: qfjz-sign
+Fingerprint: 9A22 DB48 1E21 A7D0 0855  D9BC FDCF 7EF2 02C9 9D13
+ID: fdcf7ef202c99d13
+
 ```
 curl -o qfjz.gpg https://github.com/qfjz.gpg
 ```
@@ -21,9 +25,7 @@ lub
 curl -o qfjz.gpg "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xfdcf7ef202c99d13"
 ```
 
-Klucz można też wyszukać używając nazwy `qfjz-sign`
-
-- https://keyserver.ubuntu.com/pks/lookup?search=qfjz-sign&fingerprint=on&op=index
+Import i weryfikacja
 
 ```
 gpg --import qfjz.gpg
