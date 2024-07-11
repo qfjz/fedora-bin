@@ -13,6 +13,19 @@ Weryfikacja plików binarnych za pomocą klucza PGP
 
 ```
 curl -o qfjz.gpg https://github.com/qfjz.gpg
+```
+
+lub
+
+```
+curl -o qfjz.gpg "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xfdcf7ef202c99d13"
+```
+
+Klucz można też wyszukać używając nazwy `qfjz-sign`
+
+- https://keyserver.ubuntu.com/pks/lookup?search=qfjz-sign&fingerprint=on&op=index
+
+```
 gpg --import qfjz.gpg
 gpg --verify starship.sig
 
